@@ -1,3 +1,56 @@
+## ReactJS Chapter 13
+It is my coding practice with the TUTORIAL of Dave Gray. 
+
+## Source
+### Dave Gray 的 Reactjs 課程
+https://youtube.com/playlist?list=PL0Zuz27SZ-6PrE9srvEn8nbhOOyxnWXfp
+### Dave Gray 的 YouTube 頻道
+https://www.youtube.com/@DaveGrayTeachesCode
+
+## ReactJS Chapter 13
+   Quick Concept outline
+   中文摘要說明與重點提問
+   
+###  1. Intro 
+        教學影片固定的開頭和摘要說明
+
+###  2. Tutorial Set Up
+        在 git bash 輸入 npx json-server -p 3500 -w data/db.json
+        p: port
+        w: watch
+
+###  3. Switching from localStorage to REST API
+        指派 api 連結
+
+###  4. Using Async Await with useEffect hook
+        在 useEffect 使用 Asynchronous 和 Await
+
+###  5. Creating the fetch function
+        指派 async 的 arrow function 為 fetchItems
+        用 try block；並用 catch block 去捕捉 error
+
+###  6. Not all fetch errors go to the catch block
+        說明不會前往 catch block 的 fetch error
+        TypeError: items.filter is not a function
+
+###  7. Catching fetch error responses
+        指派 Array 為 fetchError
+
+###  8. Displaying errors in JSX
+        顯示 紅字 Error: fail to patch
+
+###  9. Simulating a slow REST API response
+        模擬 REST API 會多慢回應
+
+### 10. Track loading state
+        追蹤 loading state
+
+### 11. Displaying a loading message in JSX
+        顯示載入的訊息
+
+### 12. The complete fetch function inside useEffect
+        概述完成的結果。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
